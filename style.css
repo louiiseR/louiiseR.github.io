@@ -1,0 +1,15 @@
+body {
+  background-color: #fff8f2;
+}
+
+h1, h2, h3 {
+  color: #c9622f;
+}
+
+.navbar, .nav {
+  background-color: #f5a87a !important;
+}
+
+p {
+  color: #3d2b1f;
+}
