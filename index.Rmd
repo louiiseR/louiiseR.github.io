@@ -10,7 +10,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 library(sf)
 library(mapsf)
 
@@ -204,7 +204,6 @@ Dans le cadre de notre étude sur les inégalités à Fort-de-France et Saint-Jo
 **Cette analyse n'a cependant pas pu être réalisée.** La campagne LiDAR HD de l'IGN, qui produit les données MNT et MNS à haute résolution (0,5m), ne couvre à ce jour que la France métropolitaine. La Martinique, comme l'ensemble des territoires d'outre-mer, n'est pas incluse dans le programme de diffusion actuel, comme l'illustre la carte ci-dessous.
 
 ![Couverture LiDAR HD IGN au 05/03/2026](C:/Users/PC-Etudiant/Downloads/lidar_couverture.png)
-
 *Source : IGN — Prévision de disponibilité des nuages de points et modèles numériques Lidar HD au 05/03/2026*
 
 Les sites consultés sans succès pour obtenir ces données sont les suivants :
